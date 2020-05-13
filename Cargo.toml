@@ -1,0 +1,17 @@
+[package]
+
+name        = "hkdf"
+version     = "0.3.2"
+authors     = ["Wire Swiss GmbH <support@wire.com>"]
+description = "HKDF implementation (RFC 5869)"
+homepage    = "https://github.com/social-network/hkdf"
+repository  = "git@github.com:social-network/hkdf.git"
+license     = "GPL-3.0"
+
+[dependencies.sodiumoxide]
+version          = "^0.2.5"
+default-features = false
+features = ["std"]
+
+[dev-dependencies]
+rustc-serialize = "> 0.3.0"
